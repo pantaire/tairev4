@@ -207,3 +207,6 @@
     display: inline-block;
     font-size: 16px;
   }
+  button:hover {
+    background-color: #344d1d;
+  }
