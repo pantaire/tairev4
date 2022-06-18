@@ -31,7 +31,7 @@
       border: 1px solid #999;
       page-break-inside: avoid;
     }
-  
+    
     thead {
       display: table-header-group;
     }
@@ -60,6 +60,11 @@
   
   html {
     font-size: 12px;
+  }
+
+  hr {
+    border: 3px dotted #9e3a00;
+    
   }
   
   @media screen and (min-width: 32rem) and (max-width: 48rem) {
@@ -142,13 +147,13 @@
   }
   
   body {
-    color: #444;
+    color: #4d1c00;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 300;
     margin: 6rem auto 1rem;
     max-width: 48rem;
     text-align: center;
-    background-color: #fc0;
+    background-color: #ff9f68;
   }
   
   img {
@@ -164,13 +169,13 @@
   
   a,
   a:visited {
-    color: #4e722d;
+    color: #4d1c00;
   }
   
   a:hover,
   a:focus,
   a:active {
-    color: #4e722d;
+    color: #9e3a00;
   }
   
   pre {
@@ -181,7 +186,7 @@
   
   blockquote {
     margin: 0;
-    border-left: 5px solid #748B75;
+    border-left: 5px solid #9e3a00;
     font-style: italic;
     padding: 1.33em;
     text-align: left;
@@ -194,19 +199,19 @@
   }
   
   p {
-    color: #333;
+    color: #000;
   }
 
   button {
-    background-color: #4e722d;
-    border-radius: 4px;
+    background-color: #9e3a00;
+    border-radius: 15px;
     border: none;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 15px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
   }
   button:hover {
-    background-color: #344d1d;
+    background-color: #bb4500;
   }
