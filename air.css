@@ -149,13 +149,12 @@
   }
   
   body {
-    color: #4d1c00;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 300;
     margin: 6rem auto 1rem;
     max-width: 48rem;
     text-align: center;
-    background-color: #f1a129;
+    background-color: #5CA166;
     line-height: 1.85;
     height: 100vh;
   }
@@ -207,15 +206,16 @@
   }
 
   button {
-    background-color: #9e3a00;
+    background-color: #BAE8C3;
     border-radius: 15px;
     border: none;
-    color: white;
+    color: black;
     padding: 10px 15px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
   }
   button:hover {
-    background-color: #bb4500;
+    background-color: #EDE977;
+    border-radius: 30px;
   }
